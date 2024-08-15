@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  font-family: "Gupter", serif;
+  color: #8c8c8c;
+  padding: 2.5%;
+  /* background-image: url("https://cdn.pixabay.com/photo/2020/03/26/08/23/cologne-4969546_640.jpg"); */
+  background-color: whitesmoke;
+}
+
+.header {
+  height: 95vh;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(53, 213, 248, 0.793),
+      rgba(136, 225, 245, 0.807)
+    ),
+    url("https://cdn.pixabay.com/photo/2020/03/26/08/23/cologne-4969546_640.jpg");
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(0 0, 100% 0, 100% 70vh, 0 100%);
+}
+.intro {
+  padding: 2%;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+}
+h1 {
+  color: rgb(248, 248, 164);
+}
+.reconstruction {
+  text-decoration: none;
+  color: #4e4d4d;
+}
+.reconstruction:hover {
+  color: rgb(248, 248, 164);
+}
+.reconstruction2 {
+  text-decoration: none;
+  color: rgba(16, 202, 244, 0.793);
+  text-shadow: 1px 1px 2px white;
+}
+.reconstruction2:hover {
+  color: rgb(248, 248, 164);
+}
+.reconstruction3 {
+  text-decoration: none;
+  color: black;
+  text-shadow: 1px 1px 2px white;
+}
+.reconstruction3:hover {
+  color: rgba(16, 202, 244, 0.793);
+}
+hr {
+  margin: 0 auto;
+  width: 10%;
+  border-bottom: dotted;
+  border: 10px dotted rgb(248, 248, 164);
+  border-style: none none dotted;
+  color: #fff;
+  background-color: transparent;
+}
+#hr2 {
+  margin: 0 auto;
+  width: 10%;
+  border-bottom: dotted;
+  border: 10px dotted rgba(16, 202, 244, 0.793);
+  border-style: none none dotted;
+  color: #fff;
+  background-color: transparent;
+}
+#today {
+  color: rgba(16, 202, 244, 0.793);
+  margin-top: -2.5%;
+}
+section {
+  height: 100vh;
+  color: #777;
+}
+
+.introMiddleAges {
+  margin-top: -10%;
+  height: 95vh;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(80, 79, 79, 0.872),
+      rgba(145, 145, 145, 0.886)
+    ),
+    url("https://cdn.pixabay.com/photo/2024/01/30/12/16/church-8541874_640.jpg");
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 100%);
+}
+.introMiddleAges2 {
+  margin-top: 5%;
+  height: 95vh;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(53, 213, 248, 0.793),
+      rgba(136, 225, 245, 0.807)
+    ),
+    url("https://cdn.pixabay.com/photo/2024/01/30/12/16/church-8541874_640.jpg");
+  background-size: cover;
+  background-position: top;
+}
+.introMiddleAges2b {
+  margin-top: 5%;
+  height: 95vh;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(80, 79, 79, 0.872),
+      rgba(145, 145, 145, 0.886)
+    ),
+    url("https://cdn.pixabay.com/photo/2024/01/30/12/16/church-8541874_640.jpg");
+  background-size: cover;
+  background-position: top;
+}
+.introMiddleAges3 {
+  margin-top: 5%;
+  height: 95vh;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(53, 213, 248, 0.793),
+      rgba(136, 225, 245, 0.807)
+    ),
+    url("https://cdn.pixabay.com/photo/2024/01/30/12/16/church-8541874_640.jpg");
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(0 0%, 100% 0, 100% 70%, 0% 100%);
+}
+
+.introMiddleAges4 {
+  margin-top: -10%;
+  height: 95vh;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(80, 79, 79, 0.872),
+      rgba(145, 145, 145, 0.886)
+    ),
+    url("https://cdn.pixabay.com/photo/2024/01/30/12/16/church-8541874_640.jpg");
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 100%);
+}
+.introMiddleAges5 {
+  margin-top: 5%;
+  margin-bottom: 10%;
+  height: 80vh;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(231, 248, 51, 0.872),
+      rgba(235, 248, 157, 0.886)
+    ),
+    url("https://cdn.pixabay.com/photo/2024/01/30/12/16/church-8541874_640.jpg");
+  background-size: cover;
+  background-position: top;
+}
+.info {
+  color: rgb(248, 248, 164);
+  padding-top: 15%;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+  font-size: 2rem;
+  letter-spacing: 2;
+  font-weight: 300;
+}
+.info h1 {
+  color: rgb(248, 248, 164);
+}
+.info h2 {
+  font-size: 2.5rem;
+}
+.linkCollection {
+  display: flex;
+  gap: 15px;
+}
+button {
+  border-radius: 15px;
+  padding: 15px 45px;
+  font-family: "Gupter", serif;
+  font-size: 1.75rem;
+  border: none;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  color: rgb(248, 248, 164);
+  background-color: rgb(148, 147, 147);
+}
+button:hover {
+  font-weight: 500;
+  background-color: rgb(6, 185, 225);
+  color: rgb(248, 248, 164);
+  transform: translateX(5px) translateY(5px);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+}
+.info2 {
+  color: white;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+  font-size: 2rem;
+  letter-spacing: 2;
+  font-weight: 300;
+}
+
+.info3 {
+  color: rgb(6, 185, 225);
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+  font-size: 2rem;
+  letter-spacing: 2;
+  font-weight: 300;
+}
+
+#cathedral {
+  font-size: 3.5rem;
+}
+.textShadow {
+  text-shadow: 2px 2px 2px black;
+}
+
+#continue {
+  color: white;
+  margin-top: 2.5%;
+  margin-bottom: 2%;
+}

@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background: url("Images/camera-219958_1920.jpg");
+  background-position: center/cover;
+  background-repeat: no-repeat;
+}
+#knob {
+  position: absolute;
+  width: 20%;
+  top: 56.2%;
+  left: 48.4%;
+  transform: rotate3d(1, 3, 1, 45deg);
+}
+/* #knob:hover {
+  animation: openCamera 5s 0s ease forwards;
+} */
+
+@keyframes openCamera {
+  0% {
+    transform: rotate3d(1, 3, 1, 45deg);
+  }
+  20% {
+    transform: rotate3d(10, 10, 1, 45deg);
+  }
+
+  100% {
+    transform: rotate3d(10, 10, 1, 90deg);
+  }
+}
+
+.container {
+  margin-top: 10%;
+  margin-left: 5%;
+  font-size: 2rem;
+  color: white;
+}
+.firstFilm {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin-left: 47%;
+  margin-top: 13%;
+  transform: scale(0.01);
+  font-weight: bold;
+  /* animation: getIntoSight 3s 4s linear forwards; */
+}
+
+@keyframes getIntoSight {
+  from {
+    margin-left: 47%;
+    margin-top: 13%;
+    transform: scale(0.1);
+  }
+  to {
+    margin-left: 5%;
+    margin-top: 5%;
+    transform: scale(1);
+  }
+}
+.firstFilm a {
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+}
+.firstFilm a:hover {
+  color: rgb(246, 246, 121);
+}
+#firstFilm {
+  width: 250px;
+  height: 250px;
+}
+#secondFilm {
+  padding-left: 40%;
+  width: 400px;
+  height: 150px;
+}
+.secondFilm {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin-left: 47%;
+  margin-top: 13%;
+  transform: scale(0.01);
+  font-weight: bold;
+  /* animation: getIntoSight2 3s 4s linear forwards; */
+}
+
+@keyframes getIntoSight2 {
+  from {
+    margin-left: 47%;
+    margin-top: 13%;
+    transform: scale(0.1);
+  }
+  to {
+    margin-left: 25%;
+    margin-top: 8%;
+    transform: scale(1);
+  }
+}
+
+.secondFilm a {
+  color: rgb(19, 13, 1);
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.secondFilm a:hover {
+  color: dodgerblue;
+}
+
+#back {
+  color: orangered;
+}
+#back:hover {
+  color: yellow;
+}
