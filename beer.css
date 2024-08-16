@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background: url("https://cdn.pixabay.com/photo/2014/01/28/15/08/beer-253791_640.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.wrapper {
+  height: 100%;
+  width: 100%;
+  background: url("https://cdn.pixabay.com/photo/2014/01/28/15/08/beer-253791_640.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.firstPart,
+.thirdPart {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.a {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+.b {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+.c {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+.d {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+.e {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+.f {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
+.h {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 3;
+}
+.i {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 3;
+}
+.j {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 3;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+}
+.pushDown {
+  height: 120px;
+  text-align: center;
+}
+.pushDown h1 {
+  padding-top: 10%;
+}
+
+.info {
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  text-align: center;
+  background-color: rgb(253, 253, 181);
+  border-radius: 15px;
+  padding: 1.5%;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.info a {
+  text-decoration: none;
+  color: green;
+  font-size: 1.5rem;
+}
+.info a:hover {
+  color: dodgerblue;
+}
+
+hr {
+  width: 10%;
+  background-color: green;
+  height: 5px;
+  margin: 15px auto 15px auto;
+}
+#plant {
+  position: absolute;
+  top: 80%;
+  left: 68%;
+}
