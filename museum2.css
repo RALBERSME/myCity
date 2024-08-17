@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  /* overflow: hidden; */
+  background: url("https://cdn.pixabay.com/photo/2015/03/18/19/16/springtime-background-679819_640.jpg");
+  background-size: 30%;
+  background-repeat: repeat;
+}
+.containerAround {
+  position: relative;
+  margin: 5%;
+}
+
+/*main museums */
+/* Container needed to position the overlay. Adjust the width as needed */
+.mainMuseums {
+  padding-top: 2.5%;
+  display: flex;
+  gap: 25px;
+}
+.wrapper {
+  position: relative;
+  width: 50%;
+}
+
+/* Make the image to responsive */
+.image {
+  display: inline;
+  width: 100%;
+  height: auto;
+}
+
+/* The overlay effect (full height and width) - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url("https://cdn.pixabay.com/photo/2023/11/13/19/00/room-8386195_640.jpg");
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transform: scale(0);
+  transition: 0.3s ease;
+  clip-path: polygon(49% 0, 54% 0, 100% 26%, 99% 88%, 0 88%, 0 27%);
+}
+
+/* When you mouse over the container, the overlay text will "zoom" in display */
+.wrapper:hover .overlay {
+  transform: scale(1);
+}
+
+/* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
+.text {
+  color: black;
+  font-size: 1.25rem;
+  position: absolute;
+  top: 25%;
+  padding: 7.5%;
+  font-weight: 500;
+  background-color: rgba(251, 233, 133, 0.3);
+  text-align: center;
+}
+.text a {
+  text-decoration: none;
+  color: dodgerblue;
+}
+.text a:hover {
+  color: orangered;
+}
+.name {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  font-size: 1.25rem;
+}
+#next {
+  text-decoration: none;
+  margin-left: 40%;
+  padding: 25px 35px;
+  background-color: gray;
+  border-radius: 15px;
+  color: white;
+  font-size: 1.5rem;
+}
+#next:hover {
+  color: rgb(244, 244, 141);
+}
