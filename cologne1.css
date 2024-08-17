@@ -20,7 +20,7 @@ body {
       rgba(53, 213, 248, 0.793),
       rgba(136, 225, 245, 0.807)
     ),
-    url("https://cdn.pixabay.com/photo/2020/03/26/08/23/cologne-4969546_640.jpg");
+    url("Images/cologne-4969546_640.jpg");
   background-size: cover;
   background-position: top;
   clip-path: polygon(0 0, 100% 0, 100% 70vh, 0 100%);
@@ -92,7 +92,7 @@ section {
       rgba(80, 79, 79, 0.872),
       rgba(145, 145, 145, 0.886)
     ),
-    url("https://cdn.pixabay.com/photo/2024/01/30/12/16/church-8541874_640.jpg");
+    url("Images/church-8541874_640.jpg");
   background-size: cover;
   background-position: top;
   clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 100%);
@@ -105,7 +105,7 @@ section {
       rgba(53, 213, 248, 0.793),
       rgba(136, 225, 245, 0.807)
     ),
-    url("https://cdn.pixabay.com/photo/2024/01/30/12/16/church-8541874_640.jpg");
+    url("Images/church-8541874_640.jpg");
   background-size: cover;
   background-position: top;
 }
@@ -117,7 +117,7 @@ section {
       rgba(80, 79, 79, 0.872),
       rgba(145, 145, 145, 0.886)
     ),
-    url("https://cdn.pixabay.com/photo/2024/01/30/12/16/church-8541874_640.jpg");
+    url("Images/church-8541874_640.jpg");
   background-size: cover;
   background-position: top;
 }
@@ -129,7 +129,7 @@ section {
       rgba(53, 213, 248, 0.793),
       rgba(136, 225, 245, 0.807)
     ),
-    url("https://cdn.pixabay.com/photo/2024/01/30/12/16/church-8541874_640.jpg");
+    url("Images/church-8541874_640.jpg");
   background-size: cover;
   background-position: top;
   clip-path: polygon(0 0%, 100% 0, 100% 70%, 0% 100%);
@@ -143,7 +143,7 @@ section {
       rgba(80, 79, 79, 0.872),
       rgba(145, 145, 145, 0.886)
     ),
-    url("https://cdn.pixabay.com/photo/2024/01/30/12/16/church-8541874_640.jpg");
+    url("Images/church-8541874_640.jpg");
   background-size: cover;
   background-position: top;
   clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 100%);
@@ -157,7 +157,7 @@ section {
       rgba(231, 248, 51, 0.872),
       rgba(235, 248, 157, 0.886)
     ),
-    url("https://cdn.pixabay.com/photo/2024/01/30/12/16/church-8541874_640.jpg");
+    url("Images/church-8541874_640.jpg");
   background-size: cover;
   background-position: top;
 }

@@ -6,6 +6,10 @@
 body {
   height: 100vh;
   background: linear-gradient(to bottom right, #ffebd4, #f9f4ee);
+  background: url("Images/cathedral-1296373_640.png");
+  background-position: 70% 70%;
+  background-repeat: repeat-x;
+  overflow: hidden;
 }
 .container {
   margin: 5%;
