@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background: url("Images/cologne-cathedral-1846338_1920.jpg");
+  background-position: center/cover;
+  background-repeat: no-repeat;
+}
+.container {
+  color: rgb(254, 237, 140);
+  text-shadow: 1px 1px 1px gold;
+  margin-left: 29%;
+  font-size: 1.25rem;
+}
+.bye {
+  padding-left: 30%;
+}
+#small {
+  padding-left: 40px;
+}
+
+footer {
+  position: absolute;
+  top: 92%;
+  left: 63%;
+  color: rgb(254, 237, 140);
+  text-shadow: 1px 1px 1px gold;
+  font-size: 1.75rem;
+}

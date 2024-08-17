@@ -17,7 +17,7 @@ body {
 }
 
 /*main museums */
-/* Container needed to position the overlay. Adjust the width as needed */
+
 .mainMuseums {
   padding-top: 2.5%;
   display: flex;
@@ -28,14 +28,12 @@ body {
   width: 50%;
 }
 
-/* Make the image to responsive */
 .image {
   display: inline;
   width: 100%;
   height: auto;
 }
 
-/* The overlay effect (full height and width) - lays on top of the container and over the image */
 .overlay {
   position: absolute;
   bottom: 0;
@@ -50,12 +48,10 @@ body {
   clip-path: polygon(49% 0, 54% 0, 100% 26%, 99% 88%, 0 88%, 0 27%);
 }
 
-/* When you mouse over the container, the overlay text will "zoom" in display */
 .wrapper:hover .overlay {
   transform: scale(1);
 }
 
-/* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
 .text {
   color: black;
   font-size: 1.25rem;
