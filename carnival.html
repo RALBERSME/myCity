@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="carnival.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <br />
+      <h1>There's something in the air</h1>
+      <br />
+
+      <div class="flags">
+        <video
+          id="videoPlayer"
+          autoplay
+          muted
+          loop
+          id="myVideo"
+          height="150px"
+          width="300px"
+        >
+          <source src="flag.mp4" type="video/mp4" />
+        </video>
+        <video
+          id="videoPlayer"
+          autoplay
+          muted
+          loop
+          id="myVideo"
+          height="150px"
+          width="300px"
+        >
+          <source src="flag.mp4" type="video/mp4" />
+        </video>
+        <video
+          id="videoPlayer"
+          autoplay
+          muted
+          loop
+          id="myVideo"
+          height="150px"
+          width="300px"
+        >
+          <source src="flag.mp4" type="video/mp4" /></video
+        ><br />
+      </div>
+      <br />
+      <h2>
+        All of Cologne's flags are hoisted and fluttering in the wind.<br />
+        People have gathered in the city center.<br />
+        The tension is high, almost unbearable. <br />Everyone is just waiting
+        for a moment of relief. Finally someone shouts:<br />
+      </h2>
+      <br /><br />
+      <div class="parade">
+        <p>«D’r Zoch kütt!»</p>
+        <small id="cta">«The parade is coming!»</small><br />
+        <img
+          onclick="window.location.href='carnival2.html'"
+          id="lok"
+          heigh="30px"
+          width="50px"
+          src="https://cdn.pixabay.com/photo/2016/01/28/22/27/locomotive-1167071_960_720.jpg"
+        />
+      </div>
+      <div class="party" id="party">
+        <img id="party1" src="Images/party-309155_640.png" />
+
+        <img id="party2" src="Images/party-309155_640.png" />
+        <img id="party3" src="Images/party-309155_640.png" />
+      </div>
+
+      <img
+        id="bonbons"
+        src="Images/candies-6318509_640.png"
+        width="350px"
+        height="350px"
+      />
+    </div>
+    <script>
+      setTimeout(() => {
+        document.getElementById("cta").style.color = "dodgerblue";
+        document.getElementById("cta").textContent =
+          "«click on train to continue»";
+      }, 15000);
+    </script>
+  </body>
+</html>
